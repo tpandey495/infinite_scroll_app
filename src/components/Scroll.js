@@ -1,6 +1,6 @@
 
 
-function Comment({item}) {
+function Scroll({item}) {
   console.log(item);
     return (
     <div className="profile col-sm-5 col-md-2 my-2">
@@ -16,4 +16,4 @@ function Comment({item}) {
  )
 }
 
-export default Comment
+export default Scroll

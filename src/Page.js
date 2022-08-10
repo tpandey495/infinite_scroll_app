@@ -2,7 +2,7 @@ import "./App.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Comment from './components/Comment';
+import Scroll from './components/Scroll';
 
 
 
@@ -68,7 +68,7 @@ return (
     >
        {
       items.map(elem=>{
-        return <Comment key={elem.id} item={elem} />
+        return <Scroll key={elem.id} item={elem} />
       })
     }
     </InfiniteScroll>
